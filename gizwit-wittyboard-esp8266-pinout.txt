@@ -1,0 +1,23 @@
+Leider findet man zu dem Witty kaum Dokumentation. Also habe ich das Bildchen da oben gemalt, schon allein damit ich selbst nachsehen kann was an welchem Pin angeschlossen ist. So hängt an dem Pin der mit GPIO13 beschriftet ist der blaue Kanal der RGB-LED, in der Programmierumgebung heißt der Pin D7.
+
+Label		Pin (Arduino)		Funktion
+
+REST		—	Reset
+ADC		A0	Analoger Eingang, belegt mit LDR
+CH_PD		—	Chip Power-Down
+GPIO16		D0	GPIO, frei benutzbar
+GPIO14		D5	GPIO, frei benutzbar
+GPIO12		D6	GPIO, grüner Kanal der RGB-LED
+GPIO13		D7	GPIO, blauer Kanal der RGB-LED
+VCC		—	+5V Versorgungsspannung
+TXD		TX	Serielle Schnittstelle
+RXD		RX	Serielle Schnittstelle
+GPIO5		D1	GPIO, frei benutzbar
+GPIO4		D2	GPIO, belegt mit dem Tastschalter
+GPIO0		D3	GPIO, verbunden mit dem Flash-Taster, nicht völlig frei benutzbar
+GPIO2		D4	GPIO, belegt mit der blauen LED auf dem ESP-Modul
+GPIO15		D8	GPIO, roter Kanal der RGB-LED
+GND	—	Masse
+
+
+Falls jemand einen Schaltplan des Boards hat, oder falls mich jemand korrigieren oder ergänzen 
